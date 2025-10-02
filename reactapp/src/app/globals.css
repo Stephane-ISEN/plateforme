@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+main,
+:root {
+  height: 100%;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+    --sidebar-background: #111827;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 47.4% 11.2%;
+    --foreground: 0 0% 100%;
+    --sidebar-background: #ffffff;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: 222.2 47.4% 11.2%;
+    --card-foreground: #ffffff 0% 100%;
+
+    --Card: 222.2 47.4% 11.2%;
+    --Card-foreground: #ffffff 0% 100%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+
+  }
+}
+
+.text-black-input {
+  color: black;
+}
+
+.invert-logo {
+  filter: invert(100%);
+}
+
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+
+}
+
+.ReactModal__Content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: #111827;
+
+  padding: 10px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+.ReactModal__Body--open {
+  background: #111827;
+
+}
+
+.hidden-content {
+  display: none;
+}
+
+
+#prompts-list {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+#prompts-list pre, #prompts-list code {
+  background-color: #f5f5f5;
+  padding: 5px;
+  overflow-x: auto;
+}
+
+#prompts-list h1, #prompts-list h2, #prompts-list h3, #prompts-list h4, #prompts-list h5, #prompts-list h6 {
+  margin-top: 1em;
+}
+
+#prompts-list p {
+  margin-bottom: 1em;
+}
+
+@media (max-height: 640px) {
+  body {
+    /* Ajustez les styles pour les écrans de faible hauteur */
+    padding-bottom: 0; /* Évite les marges qui créent des bandes noires */
+    min-height: 100vh; /* Assure que le contenu prend toute la hauteur */
+  }
+
+  /* Ajustez les éléments qui débordent ou causent des problèmes */
+  .some-element {
+    height: calc(100vh - 50px); /* Ajuste la taille de l'élément en fonction de la hauteur de la fenêtre */
+  }
+}
+
+@media (max-height: 640px) {
+  .card {
+    padding-bottom: 0; /* Ajustez le padding pour éviter les débordements */
+  }
+}
+
+.form-item {
+  margin-bottom: 0; /* Évitez les marges excessives qui pourraient pousser le contenu en dehors de la vue */
+}
+
+.flex-grow {
+  min-height: 0; /* Permet à l'élément de s'adapter à la hauteur disponible */
+}
