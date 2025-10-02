@@ -1,0 +1,54 @@
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb-data:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGO_DATABASE}
+    networks:
+      - backend-network
+
+  fastapi:
+    build:
+      context: ./fastApiProject
+      dockerfile: Dockerfileapi
+    container_name: api
+    ports:
+      - "8002:8002"
+    volumes:
+      - ./fastApiProject:/fastApiProject
+      - images:/images
+    depends_on:
+      - mongodb
+    networks:
+      - backend-network
+      - frontend-network
+    environment:
+      - ENV=production
+
+  reactapp:
+    build:
+      context: ./reactapp
+      dockerfile: Dockerfilereact
+    container_name: react
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_BASE_URL=http://localhost:8002/
+    networks:
+      - frontend-network
+
+networks:
+  backend-network:
+    driver: bridge
+  frontend-network:
+    driver: bridge
+
+volumes:
+  mongodb-data:
+  images:

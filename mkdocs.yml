@@ -1,0 +1,26 @@
+site_name : manag'ia
+
+theme : readthedocs
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+
+nav : 
+  - Acceuil: "index.md"
+  - Technique :
+    - modèles pydantic :
+      - Session : "api/modeles/session.md"
+      - Users : "api/modeles/users.md"
+      - Prompts : "api/modeles/prompts.md"
+    - CRUD :
+      - Session : "api/crud/session.md"
+      - Users : "api/crud/users.md"
+      - Prompts : "api/crud/prompts.md"
+    - Endpoints :
+      - Sessions : "api/endpoints/sessions.md"
+      - Users : "api/endpoints/users.md"
+      - Prompts : "api/endpoints/prompts.md"
