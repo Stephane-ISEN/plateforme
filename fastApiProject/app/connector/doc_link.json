@@ -1,0 +1,135 @@
+[
+    {
+        "title": "OpenAI API",
+        "url": "https://beta.openai.com/docs/",
+        "avatar": "O",
+        "description": "Documentation pour l'API d'OpenAI, y compris GPT-3 et DALL-E.",
+        "categorie": "technique"
+    },
+    {
+        "title": "Python Documentation",
+        "url": "https://docs.python.org/3/",
+        "avatar": "P",
+        "description": "Documentation officielle de Python.",
+        "categorie": "technique"
+    },
+    {
+        "title": "React Documentation",
+        "url": "https://reactjs.org/docs/getting-started.html",
+        "avatar": "R",
+        "description": "Guide complet pour React, création d'interfaces utilisateur.",
+        "categorie": "technique"
+    },
+    {
+        "title": "MDN Web Docs (JavaScript)",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "avatar": "M",
+        "description": "Documentation JavaScript approfondie pour les développeurs.",
+        "categorie": "technique"
+    },
+    {
+        "title": "Tailwind CSS Documentation",
+        "url": "https://tailwindcss.com/docs",
+        "avatar": "T",
+        "description": "Tailwind CSS, un framework CSS axé sur les utilitaires.",
+        "categorie": "technique"
+    },
+    {
+        "title": "Git-it (deskstop app)",
+        "url": "https://github.com/jlord/git-it-electron",
+        "avatar": "G",
+        "description": "Application pour découvrir Git (tutoriel).",
+        "categorie": "technique"
+    },
+    {
+        "title": "GitHub Docs",
+        "url": "https://docs.github.com/fr",
+        "avatar": "G",
+        "description": "Guides complets et articles d'aide pour la plateforme GitHub.",
+        "categorie": "technique"
+    },
+    {
+        "title": "MDN Web Docs (HTTP)",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+        "avatar": "M",
+        "description": "Le protocole HTTP sur MDN Web Docs.",
+        "categorie": "technique"
+    },
+    {
+        "title": "GraphQL Documentation",
+        "url": "https://graphql.org/learn/",
+        "avatar": "G",
+        "description": "GraphQL, un langage de requête pour votre API.",
+        "categorie": "technique"
+    },
+    {
+        "title": "Node.js Documentation",
+        "url": "https://nodejs.org/en/docs/",
+        "avatar": "N",
+        "description": "Node.js pour l'exécution JavaScript.",
+        "categorie": "technique"
+    },
+    {
+        "title": "Express.js Documentation",
+        "url": "https://expressjs.com/en/starter/installing.html",
+        "avatar": "E",
+        "description": "Guides pour Express.js, application Web pour Node.js.",
+        "categorie": "technique"
+    },
+    {
+        "title": "PostgreSQL Documentation",
+        "url": "https://www.postgresql.org/docs/",
+        "avatar": "P",
+        "description": "PostgreSQL, base de données relationnelle open source.",
+        "categorie": "technique"
+    },
+    {
+        "title": "MongoDB Documentation",
+        "url": "https://docs.mongodb.com/",
+        "avatar": "M",
+        "description": "MongoDB pour la base de données NoSQL.",
+        "categorie": "technique"
+    },
+    {
+        "title": "FreeCodeCamp",
+        "url": "https://www.freecodecamp.org/",
+        "avatar": "F",
+        "description": "Plateforme interactive pour le code et le développement Web.",
+        "categorie": "technique"
+    },
+    {
+        "title": "Codecademy",
+        "url": "https://www.codecademy.com/",
+        "avatar": "C",
+        "description": "Cours gratuits dans 12 langages de programmation différents.",
+        "categorie": "technique"
+    },
+    {
+        "title": "Khan Academy (Computing)",
+        "url": "https://www.khanacademy.org/computing",
+        "avatar": "K",
+        "description": "Cours pédagogiques en programmation informatique.",
+        "categorie": "technique"
+    },
+    {
+        "title": "Machine Learning (Google)",
+        "url": "https://developers.google.com/machine-learning/crash-course",
+        "avatar": "M",
+        "description": "Une introduction au Machine Learning (par Google).",
+        "categorie": "technique"
+    },
+    {
+        "title": "Deep Learning Specialization (advanced course)",
+        "url": "https://www.math.u-bordeaux.fr/~jbigot/Site/Enseignement_files/Intro_DeepLearning.pdf",
+        "avatar": "D",
+        "description": "Cours de deep learning (par l'IMB).",
+        "categorie": "technique"
+    },
+    {
+        "title": "Apprendre à guider les ia",
+        "url": "https://www.amazon.fr/Apprendre-guider-IA-ma%C3%AEtriser-engineering/dp/229040537X/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1KACYFK6F40YM&dib=eyJ2IjoiMSJ9.S7rF0AC0sTu9Pvtiguiwi5PJSWQ-ydZFjnWmth4Bvw1dey96feJG9vcSq3mzBZUArEwTqM491RKnI8ZQ7QbdNQKq0TW4WLFIA3DIhDNVaV4.9iy_I2uNX_cfK8LmG7kKbEsgPbVQyTKyopG1KvEoZz4&dib_tag=se&keywords=cyril+de+sousa&qid=1729001968&sprefix=cyril+de+sousa%2Caps%2C93&sr=8-2",
+        "avatar": "C",
+        "description": "Livre de Cyril de Sousa sur l'IA.",
+        "categorie": "livres"
+    }
+]

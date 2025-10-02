@@ -1,0 +1,9 @@
+{
+  "roles": [
+    "SuperAdmin",
+    "Formateur-int",
+    "Formateur-ext",
+    "Formé",
+    "Banni"
+    ]
+}
